@@ -10,10 +10,27 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background: black;
 }
 
 .flex {
   display: flex;
+}
+
+.section-heading {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+
+.section-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 
 /* ------------------------ */
@@ -126,6 +143,7 @@ header {
   border-radius: 42px;
   background: rgb(230, 83, 60);
 }
+
 .btn--download {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -212,4 +230,58 @@ header {
   height: 40px;
   background: rgb(230, 83, 60);
   border-radius: 50%;
+}
+
+/* Habit */
+
+.habit-container {
+  width: 1044px;
+  margin: 100px auto;
+}
+
+.habits {
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit-details {
+  width: 671px;
+  margin: 0 auto 58px;
+}
+
+.habit-details p,
+.habit-details h2 {
+  text-align: center;
+}
+
+.habit h5 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.habit p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.habit img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
