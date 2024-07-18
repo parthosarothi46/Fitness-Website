@@ -285,3 +285,56 @@ header {
   border-radius: 50%;
   margin-bottom: 30px;
 }
+
+/* Extra */
+
+.extra-container {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  gap: 165px;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-details {
+  padding: 11px;
+}
+
+.extra-details h2 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+
+.extra-details p {
+  color: rgba(255, 255, 255, 0.5);
+  width: 443px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+
+.btn--extra {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+
+.extra-image img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+}
