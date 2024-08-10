@@ -17,6 +17,10 @@ body {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .section-heading {
   color: rgb(255, 255, 255);
   font-size: 48px;
@@ -337,4 +341,89 @@ header {
   width: 366px;
   height: 312px;
   border-radius: 18px;
+}
+
+/* Trainings and Exercises */
+
+.training-container {
+  width: 1060px;
+  margin: 100px auto 88px;
+}
+
+.training-details {
+  width: 671px;
+  margin-bottom: 56px;
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  width: 174px;
+  height: 34px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  z-index: 1;
+}
+
+.text--1 {
+  left: 24px;
+  top: 220px;
+}
+
+.text--2 {
+  left: 31px;
+  top: 25px;
+}
+
+.text--3 {
+  left: 27px;
+  top: 220px;
+}
+
+.text--4 {
+  left: 249px;
+  top: 25.5px;
+}
+
+.text--5 {
+  left: 34px;
+  top: 194px;
+}
+
+.text--6 {
+  left: 38px;
+  top: 194px;
+}
+
+.image--color::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  z-index: 0;
+}
+
+.exercise-image {
+  grid-template-columns: 250px 520px 290px;
+}
+
+.training-image {
+  grid-template-columns: 425px 288px 347px;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
