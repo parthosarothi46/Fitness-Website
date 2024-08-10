@@ -427,3 +427,117 @@ header {
   height: 100%;
   object-fit: cover;
 }
+
+/* BMI */
+
+.bmi-details {
+  width: 671px;
+  height: 120px;
+  margin: 0 auto 88px;
+}
+
+.bmi-frame {
+  background-color: rgb(34, 34, 34);
+  padding: 52px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bmi-title {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.bmi-text {
+  margin-top: 14px;
+}
+
+table {
+  width: 310px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  margin-top: 52px;
+}
+
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 18px;
+  text-align: left;
+}
+
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+thead th {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: left;
+}
+
+.form-container {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+}
+
+input[type="text"],
+select {
+  padding: 13px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  outline: none;
+  width: 50%;
+}
+
+input[type="text"]::placeholder,
+select option {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+select {
+  padding: 13px 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  border: none;
+}
+
+select:last-child {
+  width: 100%;
+}
+
+.calculate {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  margin-top: 34px;
+  padding: 16px 40px 16px 40px;
+}
