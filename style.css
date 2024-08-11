@@ -439,8 +439,12 @@ header {
 .bmi-frame {
   background-color: rgb(34, 34, 34);
   padding: 52px 0;
-  justify-content: space-around;
-  align-items: center;
+}
+
+.bmi-items {
+  max-width: 1060px;
+  margin: 0 auto;
+  gap: 175px;
 }
 
 .bmi-title {
@@ -537,6 +541,7 @@ select {
   font-weight: 600;
   line-height: 22px;
   border-radius: 42px;
+  border: none;
   background: rgb(230, 83, 60);
   margin-top: 34px;
   padding: 16px 40px 16px 40px;
