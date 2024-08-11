@@ -335,6 +335,56 @@ body {
   border-radius: 18px;
 }
 
+/* Limit */
+
+.limit-container {
+  width: 1044px;
+  margin: 100px auto;
+}
+
+.limit-details {
+  width: 671px;
+  margin: 0 auto 58px;
+}
+
+.limit-details p,
+.limit-details h2 {
+  text-align: center;
+}
+
+.services {
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+}
+
+.service {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.service h5 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.service p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
 /* Trainings and Exercises */
 
 .training-container {
