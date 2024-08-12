@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-/* ------------------------ */
+/* -------------- */
 /* GENERAL STYLES */
-/* ------------------------ */
+/*--------------- */
 
 body {
   font-family: "Inter", sans-serif;
@@ -37,19 +37,22 @@ body {
   letter-spacing: 0.3px;
 }
 
-/* ------------------------ */
+.hidden {
+  display: none;
+}
+
+/* ---------------- */
 /* COMPONENT STYLES */
-/* ------------------------ */
+/* ---------------- */
 
 /* Header */
 
 .nav-container {
-  width: 1060px;
-  margin: 0 auto;
+  max-width: 1060px;
+  margin: 0 auto 32px;
   justify-content: space-between;
   align-items: center;
   padding-top: 57px;
-  margin-bottom: 32px;
 }
 
 .nav-container h1 {
@@ -57,8 +60,6 @@ body {
   font-size: 36px;
   font-weight: 800;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
   font-style: italic;
 }
 
@@ -102,7 +103,7 @@ body {
 }
 
 .bannar-content {
-  width: 520px;
+  max-width: 520px;
 }
 
 .bannar-content h1 {
@@ -130,7 +131,6 @@ body {
 
 .btn--join {
   color: rgb(255, 255, 255);
-  font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -142,7 +142,6 @@ body {
 
 .btn--download {
   color: rgb(255, 255, 255);
-  font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -231,7 +230,7 @@ body {
 /* Habit */
 
 .habit-container {
-  width: 1044px;
+  max-width: 1044px;
   margin: 100px auto;
 }
 
@@ -248,7 +247,7 @@ body {
 }
 
 .habit-details {
-  width: 671px;
+  max-width: 671px;
   margin: 0 auto 58px;
 }
 
@@ -285,7 +284,7 @@ body {
 /* Extra */
 
 .extra-container {
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 30px;
   border-radius: 18px;
@@ -309,7 +308,7 @@ body {
 
 .extra-details p {
   color: rgba(255, 255, 255, 0.5);
-  width: 443px;
+  max-width: 443px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -330,7 +329,7 @@ body {
 }
 
 .extra-image img {
-  width: 366px;
+  max-width: 366px;
   height: 312px;
   border-radius: 18px;
 }
@@ -338,12 +337,12 @@ body {
 /* Limit */
 
 .limit-container {
-  width: 1044px;
+  max-width: 1044px;
   margin: 100px auto;
 }
 
 .limit-details {
-  width: 671px;
+  max-width: 671px;
   margin: 0 auto 58px;
 }
 
@@ -388,12 +387,12 @@ body {
 /* Trainings and Exercises */
 
 .training-container {
-  width: 1060px;
+  max-width: 1060px;
   margin: 100px auto 88px;
 }
 
 .training-details {
-  width: 671px;
+  max-width: 671px;
   margin-bottom: 56px;
 }
 
@@ -406,7 +405,7 @@ body {
 
 .text {
   position: absolute;
-  width: 174px;
+  max-width: 174px;
   height: 34px;
   color: white;
   font-size: 14px;
@@ -473,7 +472,7 @@ body {
 /* BMI */
 
 .bmi-details {
-  width: 671px;
+  max-width: 671px;
   height: 120px;
   margin: 0 auto 88px;
 }
@@ -596,7 +595,7 @@ select {
 }
 
 .team-details {
-  width: 671px;
+  max-width: 671px;
   margin: 0 auto 58px;
 }
 
@@ -616,8 +615,7 @@ select {
 }
 
 .card {
-  width: 327px;
-  height: 272px;
+  max-width: 327px;
   position: relative;
   color: #fff;
 }
@@ -682,7 +680,7 @@ footer {
 }
 
 .footer-details {
-  width: 443px;
+  max-width: 443px;
 }
 
 .started {

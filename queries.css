@@ -1,0 +1,273 @@
+/* ---------------- */
+/* COMPONENT STYLES */
+/* ---------------- */
+
+/* Tablet */
+
+@media screen and (max-width: 992px) {
+  .nav-container {
+    padding: 52px 30px;
+    margin: 0;
+  }
+
+  .nav-container ul {
+    gap: 20px;
+  }
+
+  .bannar {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .card-1 {
+    top: 10%;
+    right: -11%;
+  }
+
+  .card-2 {
+    bottom: 22%;
+    left: -15%;
+  }
+
+  .habits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 88px;
+  }
+
+  .extra-container {
+    margin: 0 20px;
+    gap: 68px;
+  }
+
+  .btn--extra {
+    display: block;
+    text-align: center;
+  }
+
+  .limit-container {
+    margin: 100px 20px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .exercise-image {
+    grid-template-columns: 214px 259px 211px;
+  }
+
+  .training-image {
+    grid-template-columns: 276px 210px 198px;
+  }
+
+  .text--1 {
+    left: 13px;
+    top: 102px;
+  }
+
+  .text--2 {
+    left: 19px;
+    top: 15px;
+  }
+
+  .text--3 {
+    left: 10px;
+    top: 100px;
+  }
+
+  .text--4 {
+    left: 13px;
+    top: 110px;
+  }
+
+  .text--5 {
+    left: 10px;
+    top: 115px;
+  }
+
+  .text--6 {
+    left: 10px;
+    top: 117px;
+  }
+
+  .bmi-items {
+    flex-direction: column;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 102px;
+    margin: 0 30px;
+    padding: 66px 0 71px;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    padding: 52px 20px;
+    margin: 0;
+  }
+
+  .nav-container ul {
+    display: none;
+  }
+
+  .bannar {
+    flex-direction: column;
+    gap: 48px;
+    padding: 0 20px;
+  }
+
+  .bannar-content h1 {
+    max-width: 285px;
+    font-size: 36px;
+  }
+
+  .bannar-content p {
+    max-width: 274px;
+  }
+
+  .card-1 {
+    top: 8%;
+    right: 0%;
+    padding: 12px 18px;
+  }
+
+  .card-1 h4 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
+
+  .card-1 p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .card-2 {
+    bottom: 40%;
+    left: 0%;
+    padding: 15px;
+  }
+
+  .card-2 h4 {
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .card-2 p {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+  }
+
+  .card-2 .ellipse {
+    width: 30px;
+    height: 30px;
+  }
+
+  .habit-container {
+    padding: 0 10px;
+    margin: 0 20px;
+  }
+
+  .habits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .habit {
+    padding: 0 52px;
+  }
+
+  .extra-container {
+    flex-direction: column;
+    margin: 66px 20px;
+    padding: 33px 35px;
+    gap: 31px;
+  }
+
+  .btn--extra {
+    display: block;
+    text-align: center;
+  }
+
+  .extra-image img {
+    max-width: 100%;
+  }
+
+  .limit-container {
+    margin: 66px 20px;
+    padding: 0 10px;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .text--1 {
+    left: 11px;
+    top: 175px;
+  }
+
+  .text--2 {
+    left: 11px;
+    top: 130px;
+  }
+
+  .text--3 {
+    left: 11px;
+    top: 135px;
+  }
+
+  .text--4 {
+    left: 11px;
+    top: 135px;
+  }
+
+  .text--5 {
+    left: 11px;
+    top: 172px;
+  }
+
+  .text--6 {
+    left: 11px;
+    top: 175px;
+  }
+
+  .exercise-image {
+    grid-template-columns: 1fr;
+  }
+
+  .training-image {
+    grid-template-columns: 1fr;
+  }
+
+  .bmi-items {
+    flex-direction: column;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 44px 0 72px;
+    margin: 0 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
