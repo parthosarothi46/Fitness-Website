@@ -96,6 +96,15 @@ body {
   margin-right: 20px;
 }
 
+.nav-menu {
+  display: none;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .bannar {
   justify-content: center;
   align-items: center;
@@ -156,7 +165,7 @@ body {
 }
 
 .bannar-img {
-  width: 349px;
+  max-width: 349px;
   height: 580px;
   position: relative;
 }
