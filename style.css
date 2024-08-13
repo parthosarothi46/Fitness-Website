@@ -339,7 +339,7 @@ body {
 
 .extra-image img {
   max-width: 366px;
-  height: 312px;
+  max-height: 312px;
   border-radius: 18px;
 }
 
@@ -509,7 +509,7 @@ body {
 }
 
 table {
-  width: 310px;
+  max-width: 310px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-collapse: collapse;
   margin-top: 52px;

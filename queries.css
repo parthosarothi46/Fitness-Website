@@ -2,6 +2,71 @@
 /* COMPONENT STYLES */
 /* ---------------- */
 
+/***********************************/
+/* BELOW 1200px */
+/***********************************/
+
+@media screen and (max-width: 1200px) {
+  .nav-container {
+    padding: 57px 32px 0;
+  }
+  .bannar-content {
+    max-width: 472px;
+  }
+
+  .bannar {
+    gap: 50px;
+  }
+
+  .card-1 {
+    top: 29%;
+    right: -5%;
+    padding: 17px 24px;
+  }
+
+  .card-2 {
+    bottom: 10%;
+    left: -5%;
+  }
+
+  .habits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 32px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 32px;
+  }
+
+  .exercise-image {
+    grid-template-columns: 214px 460px 254px;
+  }
+
+  .training-image {
+    grid-template-columns: 371px 253px 304px;
+  }
+
+  .training-container {
+    margin: 100px 32px 88px;
+  }
+
+  .bmi-items {
+    gap: 150px;
+    margin: 0 32px;
+  }
+
+  .footer-container {
+    margin: 0 32px;
+  }
+
+  .footer-links {
+    gap: 90px;
+  }
+}
+
 /* Tablet */
 
 @media screen and (max-width: 992px) {
@@ -35,9 +100,17 @@
     padding: 0 88px;
   }
 
+  .habit-container {
+    margin: 100px auto 84px;
+  }
+
   .extra-container {
-    margin: 0 20px;
+    margin: 0 30px;
     gap: 68px;
+  }
+
+  .extra-image img {
+    max-width: 100%;
   }
 
   .btn--extra {
@@ -46,20 +119,26 @@
   }
 
   .limit-container {
-    margin: 100px 20px;
+    margin: 72px 30px;
   }
 
   .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0;
   }
 
   .exercise-image {
-    grid-template-columns: 214px 259px 211px;
+    /* grid-template-columns: 214px 259px 211px; */
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .training-container {
+    margin: 72px 30px 70px;
   }
 
   .training-image {
-    grid-template-columns: 276px 210px 198px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .text--1 {
@@ -92,8 +171,26 @@
     top: 117px;
   }
 
+  .bmi-details {
+    margin: 0 30px 46px;
+  }
+
   .bmi-items {
     flex-direction: column;
+    margin: 0 30px;
+    gap: 62px;
+  }
+
+  table {
+    margin-top: 46px;
+  }
+
+  .team-container {
+    margin: 72px 30px 76px;
+  }
+
+  .team-details {
+    margin: 0 auto 54px;
   }
 
   .footer-container {
@@ -101,6 +198,10 @@
     gap: 102px;
     margin: 0 30px;
     padding: 66px 0 71px;
+  }
+
+  .footer-links {
+    gap: 152px;
   }
 }
 
@@ -214,6 +315,14 @@
     flex-direction: column;
   }
 
+  .training-container {
+    margin: 66px 20px 32px;
+  }
+
+  .training-details {
+    margin-bottom: 37px;
+  }
+
   .text--1 {
     left: 11px;
     top: 175px;
@@ -252,8 +361,19 @@
     grid-template-columns: 1fr;
   }
 
+  .bmi-frame {
+    padding: 34px 0 43px;
+  }
+
   .bmi-items {
     flex-direction: column;
+    margin: 0 20px;
+    gap: 42px;
+  }
+
+  .bmi-details {
+    margin: 0 20px 32px;
+    height: 100%;
   }
 
   .card-container {
@@ -262,6 +382,14 @@
 
   .card {
     max-width: 100%;
+  }
+
+  .team-container {
+    margin: 66px 20px;
+  }
+
+  .team-details {
+    margin: 0 auto 37px;
   }
 
   .footer-container {
@@ -274,5 +402,25 @@
   .footer-links {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bannar-img img {
+    width: 100%;
+  }
+
+  .card-1 {
+    top: 30%;
+    right: 5%;
+  }
+
+  .card-2 {
+    bottom: 14%;
+    left: 7%;
+  }
+
+  .habit {
+    padding: 0;
   }
 }
