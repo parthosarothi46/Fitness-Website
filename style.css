@@ -123,6 +123,10 @@ body {
   margin-bottom: 28px;
 }
 
+.bannar-img img {
+  width: 100%;
+}
+
 #shape {
   font-family: "Miama", sans-serif;
   font-weight: 400;
